@@ -4,7 +4,7 @@ import os
 from datetime import datetime
 load_dotenv()
 
-YEAR = 2021
+YEAR = 2022
 SESSION_COOKIE = os.getenv("SESSION_COOKIE")
 
 get_today = datetime.today().day
