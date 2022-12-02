@@ -24,5 +24,5 @@ if not os.path.isdir(today_dir):
 
 os.chdir(today_dir)
 
-with open("input", "w") as input_file:
+with open("input.txt", "w") as input_file:
     input_file.write(new_input)
